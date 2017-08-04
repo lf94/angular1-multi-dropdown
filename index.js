@@ -9,11 +9,11 @@ angular
     return {
       restrict: 'E',
       bindToController: {
-        columns:   '=', 
-        onSelects: '=',
-        options:   '='
+        columns:   '@', 
+        onSelects: '@',
+        options:   '@'
       },
-      scope: true,
+      scope: {},
       controller: function() {
         var $ctrl = this;
 
