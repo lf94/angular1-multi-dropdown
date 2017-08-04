@@ -1,0 +1,19 @@
+{
+  "name": "multi-dropdown",
+  "version": "1.0.0",
+  "description": "A widget that allows to use multiple, related dropdowns with ease.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "multiple",
+    "dropdown",
+    "dropdowns",
+    "angular1",
+    "angularjs",
+    "widget"
+  ],
+  "author": "Lee Fallat",
+  "license": "ISC"
+}
