@@ -58,10 +58,7 @@ angular
 
           $ctrl.state.dropdown[index].show = false;
 
-          $ctrl.onSelects 
-          && $ctrl.onSelects[index] 
-          && (typeof $ctrl.onSelects[index] === 'function')
-          && $ctrl.onSelects[index](item);
+          $ctrl.onSelects[index](item);
         };
         
         $ctrl.toggle = function(index) {
